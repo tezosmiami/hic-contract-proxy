@@ -28,6 +28,7 @@ type storage is record [
 
     (* account is map of all participants with their shares and the sum, that rhey already withdrawn *)
     accounts : big_map(address, account);
+    (* TODO: move here shares and witdrawalas as two big_maps *)
 
     (* totalWithdrawalsSum is the total amount of all withdrawals from all of the participants *)
     totalWithdrawalsSum : tez;

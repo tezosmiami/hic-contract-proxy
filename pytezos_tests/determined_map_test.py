@@ -20,6 +20,11 @@ class DeterminedTest(TestCase):
             },
             'totalShares': 1000,
             'hicetnuncMinterAddress': 'KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9',
+            'mintApprovals': {
+                self.p1: {'unlimited': None},
+                self.p2: {'unlimited': None},
+                self.p3: {'unlimited': None}
+            },
         }
 
         self.mint_params = {
